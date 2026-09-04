@@ -55,6 +55,9 @@ It includes detailed information on:
 
 #### 🌍 Country Median Salaries – Map Chart
 
+![Country](https://github.com/user-attachments/assets/444f05cb-46a6-4efe-a67a-d006a83ee4af)
+
+
 - 🗺️ **Excel Features:** Used an Excel Map Chart to visualize median salaries across different countries.
 - 🎨 **Design Choice:** A map provides a quick geographic view of salary differences between locations.
 - 📋 **Data Organization:** Country and median salary data were organized to allow Excel to identify and visualize each location.
@@ -62,9 +65,40 @@ It includes detailed information on:
 
 #### 💼 Salary by Job Type
 
+![Job_type](https://github.com/user-attachments/assets/6419e3c3-99af-41fd-9023-724fa7e4d089)
+
+
 - 📊 **Excel Features:** Used a chart to compare median salaries across different job types.
 - 🎨 **Design Choice:** Visual comparison makes salary differences between employment types easier to understand.
 - 💡 **Insights Gained:** The chart helps identify salary patterns across different job types.
 
+## 🧮 Formulas and Functions
+
+### 💰 Median Salary by Job Title
+
+```
+  =MEDIAN(
+IF(
+(DATA!$A$2:$A$32673=JOB_TITLE!$A5)*
+(DATA!$M$2:$M$32673<>"")*
+(DATA!$K$2:$K$32673=COUNTRY)*
+(ISNUMBER(SEARCH(TYPE,DATA!$E$2:$E$32673))),DATA!$M$2:$M$32673))
+```
+The dashboard uses Excel formulas to calculate median salaries based on selected job titles, countries, and job types.
+
+
+- 🔎 **Multi-Criteria Filtering:** Filters salary data based on job title, country, and job type.
+- 🧮 **Median Calculation:** Uses the `MEDIAN()` function to calculate the median salary from the filtered data.
+- 🎯 **Conditional Logic:** Uses `IF()` to apply multiple conditions and exclude invalid or blank salary values.
+- 📊 **Dynamic Analysis:** The formulas update the salary results based on the selected dashboard filters.
+
 #### Background Table
 ![Median](https://github.com/user-attachments/assets/65d638e3-679d-4504-8817-b1c34e72f68a)
+
+#### Dashboard Implementation
+
+![job_title_median](https://github.com/user-attachments/assets/44bb24e3-3824-4d82-98db-e4127abe0d34)
+
+### 📝 Conclusion
+
+This project demonstrates how Excel can be used to analyze and visualize data science job and salary data effectively. The interactive dashboard makes it easy to compare salaries across job titles, countries, and job types. It also strengthened my skills in Excel formulas, data visualization, and dashboard design.
