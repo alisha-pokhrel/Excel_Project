@@ -7,4 +7,8 @@ This data jobs salary dashboard was created to help job seekers investigate sala
 [Check Out My Work Here](./project%20one)
 
 
-[Salary Dashboard](
+![Salary Dashboard](https://github.com/user-attachments/assets/c204e919-bb0b-4eac-89b0-e3fc120d3711)
+
+
+
+
