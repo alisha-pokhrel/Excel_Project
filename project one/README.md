@@ -45,6 +45,9 @@ It includes detailed information on:
 
 #### 📊 Data Science Job Salaries – Bar Chart
 
+![Job_Title](https://github.com/user-attachments/assets/a745c221-fadd-452c-914c-44c211302599)
+
+
 - 🧮 **Excel Features:** Used a horizontal bar chart with formatted salary values for clear comparison.
 - 🎨 **Design Choice:** A horizontal bar chart makes it easy to compare median salaries across different job titles.
 - 📋 **Data Organization:** Job titles are sorted by median salary in descending order for better readability.
