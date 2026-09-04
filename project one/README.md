@@ -65,3 +65,6 @@ It includes detailed information on:
 - 📊 **Excel Features:** Used a chart to compare median salaries across different job types.
 - 🎨 **Design Choice:** Visual comparison makes salary differences between employment types easier to understand.
 - 💡 **Insights Gained:** The chart helps identify salary patterns across different job types.
+
+#### Background Table
+![Median](https://github.com/user-attachments/assets/65d638e3-679d-4504-8817-b1c34e72f68a)
